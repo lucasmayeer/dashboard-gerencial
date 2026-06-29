@@ -32,7 +32,7 @@ Hoje, três departamentos inteiros utilizam o sistema como base para suas decis�
 
 > **⚠️ Portfólio:** O código e todos os dados exibidos nesta versão são **fictícios**.  
 > O case real é de uso confidencial e permanece em produção na Odoo BR.  
-> [🔗 Acessar demonstração](#) <!-- adicionar link do deploy -->
+> [🔗 Acessar demonstração](https://dashboard-gerencial-blue.vercel.app/welcome)
 
 ---
 
@@ -152,7 +152,7 @@ Today, three entire departments use the system as the foundation for their decis
 
 > **⚠️ Portfolio notice:** All code and data in this version are **fictitious**.  
 > The real case is confidential and remains in production at Odoo BR.  
-> [🔗 Live demo](#) <!-- add deploy link here -->
+> [🔗 Live demo](https://dashboard-gerencial-blue.vercel.app/welcome)
 
 ---
 
