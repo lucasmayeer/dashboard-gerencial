@@ -94,6 +94,7 @@ export function ResumoMensalPage() {
   // Comparisons
   const comparisons = useMemo(() => {
     const [cm, cy] = currentMonth.split("/").map(Number);
+    if (isNaN(cm) || isNaN(cy)) return [];
     return [1, 2, 3].map((back) => {
       const d = new Date(cy, cm - 1 - back, 1);
       const key = `${String(d.getMonth() + 1).padStart(2, "0")}/${d.getFullYear()}`;
