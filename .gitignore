@@ -1,0 +1,47 @@
+# Environment & secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Supabase backend — not part of portfolio model
+supabase/
+*.key
+*.pem
+*.p12
+*.pfx
+*.cert
+*.crt
+secrets/
+.secrets
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Claude Code — machine-specific settings and session permissions
+.claude/settings.local.json
+.claude/worktrees/
+
+# Vite cache — contains local absolute paths
+vite.config.ts.timestamp-*.mjs
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
