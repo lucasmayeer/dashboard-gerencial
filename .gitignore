@@ -3,8 +3,8 @@
 .env.*
 !.env.example
 
-# Supabase backend — not part of portfolio model
-supabase/
+# Supabase backend — not part of portfolio model (root only, not src/integrations/supabase/)
+/supabase/
 *.key
 *.pem
 *.p12
