@@ -643,7 +643,7 @@ export function AnaliseTemporalPage() {
     ? "Análise Temporal de Performance"
     : isTeamLeader
     ? `Análise Temporal do time: ${teamName}`
-    : "Análise Temporal do Direct Sales";
+    : "Análise Temporal de Vendas";
 
   const pageSubtitle = isEmployee
     ? `Resumo temporal de MRR e NRR de ${dsUser?.userName ?? ""}`
